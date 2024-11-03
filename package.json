@@ -1,0 +1,33 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type": "module"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "axios": "^1.7.5",
+    "firebase": "^10.13.1",
+    "flowbite-react": "^0.10.1",
+    "mui-image-slider": "^1.0.10",
+    "next": "^14.2.16",
+    "react": "^18",
+    "react-dom": "^18",
+    "scrollreveal": "^4.0.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.6",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.10"
+  }
+}
