@@ -50,7 +50,7 @@ const ImageLoader = ({ blogTitle, handleFileChange }) => {
               </div>
               <div className="border-dashed border-2 border-cyan-700 py-9 px-16 relative">
                 <div className="imageLogoAndText">
-                  <img src="image.svg" alt="imagelogo" />
+                  <img src="image.svg" alt="image logo" />
                   <p className="mt-0">drag & drop here</p>
                 </div>
                 <input

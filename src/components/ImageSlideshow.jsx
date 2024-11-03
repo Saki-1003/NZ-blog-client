@@ -11,7 +11,7 @@ const ImageSlideshow = ({ article }) => {
       <Carousel>
         {urlArray.length &&
           urlArray.map((url, i) => (
-            <img key={i} className="w-full object-cover" src={url} />
+            <img key={i} className="w-full object-cover" src={url} alt={url} />
           ))}
       </Carousel>
     </div>

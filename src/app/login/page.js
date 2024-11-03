@@ -94,7 +94,7 @@ const Login = () => {
                   href="/signup"
                   className="text-xs hover:text-blue-700 hover:underline text-right block mt-2"
                 >
-                  Don't have an account? Sign Up here!
+                  Don&apos;t have an account? Sign Up here!
                 </Link>
               </div>
             </form>
