@@ -70,17 +70,16 @@ const BlogPost = () => {
             <select
               onChange={(e) => setBlogCategory(e.target.value)}
               value={blogCategory}
+              required
               className="w-full h-12 p-2 mb-3 border border-gray-300 rounded resize-none focus:outline-none focus:ring-2 focus:ring-blue-400"
             >
-              <option className="text-gray-300">
+              <option hidden className="text-gray-300">
                 --Please select a category--
               </option>
               <option>Hiking/Tramping</option>
               <option>Beaches</option>
               <option>Animals</option>
               <option>Landscape</option>
-              <option></option>
-              <option></option>
             </select>
             <label
               htmlFor="summary"
@@ -91,6 +90,7 @@ const BlogPost = () => {
             <textarea
               onChange={(e) => setBlogSummary(e.target.value)}
               value={blogSummary}
+              required
               className="w-full h-24 p-2 mb-3 border border-gray-300 rounded resize-none focus:outline-none focus:ring-2 focus:ring-blue-400"
             ></textarea>
             <label
@@ -102,6 +102,7 @@ const BlogPost = () => {
             <textarea
               onChange={(e) => setBlogContent(e.target.value)}
               value={blogContent}
+              required
               className="w-full h-24 p-2 mb-3 border border-gray-300 rounded resize-none focus:outline-none focus:ring-2 focus:ring-blue-400"
             ></textarea>
             <div className="w-full mb-5 flex justify-center lg:justify-start items-center">

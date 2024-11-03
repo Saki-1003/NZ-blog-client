@@ -60,6 +60,7 @@ const ImageLoader = ({ blogTitle, handleFileChange }) => {
                   name="imageURL"
                   accept="image/png, image/jpeg, image/jpg"
                   onChange={handleFileUpload}
+                  required
                 />
               </div>
               <p>OR</p>
